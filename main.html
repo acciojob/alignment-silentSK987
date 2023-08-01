@@ -4,14 +4,93 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 1px;
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+    .middle {
+      background-color: #f2f2f2;
+    }
+    .green {
+      background-color: green;
+    }
+    .blue {
+      background-color: blue;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h2>Table 1</h2>
+  <table class="middle" id="table-1">
+    <tr>
+      <th id="t11">Header 1</th>
+      <th class="center" id="t12">Header 2</th>
+      <th class="right" id="t13">Header 3</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td class="center">Data 2</td>
+      <td class="right">Data 3</td>
+    </tr>
+    <tr>
+      <td>Data 4</td>
+      <td class="center">Data 5</td>
+      <td class="right">Data 6</td>
+    </tr>
+  </table>
+
+  <h2>Table 2</h2>
+  <table class="middle" id="table-2">
+    <tr>
+      <td colspan="6" id="t21">Combined Cells</td>
+    </tr>
+    <tr>
+      <td>Row 2, Column 1</td>
+      <td>Row 2, Column 2</td>
+      <td>Row 2, Column 3</td>
+      <td>Row 2, Column 4</td>
+      <td>Row 2, Column 5</td>
+      <td>Row 2, Column 6</td>
+    </tr>
+    <!-- Add more rows and columns as needed -->
+  </table>
+
+  <h2>Table 3</h2>
+  <table class="middle" id="table-3">
+    <tr class="blue">
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td rowspan="4" id="t-image"><img src="image_url_here" alt="Sample Image" width="100"></td>
+      <td>Data 1</td>
+    </tr>
+    <tr>
+      <td>Data 2</td>
+    </tr>
+    <tr>
+      <td>Data 3</td>
+    </tr>
+    <tr class="green">
+      <td>Data 4</td>
+    </tr>
+  </table>
     <script type="text/javascript" src="./script.js">
 </script>
-fdajfidajkjfda
-	gdahlkjhnklfdjalkjklajfio09iauri0ewuioruoiifjasdokfjodiaf0ij
+
 </body>
 
 </html>
