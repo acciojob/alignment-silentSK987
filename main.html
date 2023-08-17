@@ -1,96 +1,87 @@
 <!DOCTYPE html>
-
+ 
 <html>
-
+ 
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 1px;
-    }
-    .center {
-      text-align: center;
-    }
-    .right {
-      text-align: right;
-    }
-    .middle {
-      background-color: #f2f2f2;
-    }
-    .green {
-      background-color: green;
-    }
-    .blue {
-      background-color: blue;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
+ 
 <body>
-	<!-- the entire body must be written by student -->
-	<h2>Table 1</h2>
+  <!-- the entire body must be written by student -->
+  <h1 class="center">HTML Assignments #3</h1>
   <table class="middle" id="table-1">
     <tr>
-      <th id="t11">Header 1</th>
-      <th class="center" id="t12">Header 2</th>
-      <th class="right" id="t13">Header 3</th>
+      <td id="t11">left</td>
+      <td class="center" id="t12">center</td>
+      <td class="right" id="t13">right</td>
+      
     </tr>
     <tr>
-      <td>Data 1</td>
-      <td class="center">Data 2</td>
-      <td class="right">Data 3</td>
+      <td>left</td>
+      <td id="t22" class="center">center</td>
+      <td id="t23" class="right">right</td>
+      
     </tr>
     <tr>
-      <td>Data 4</td>
-      <td class="center">Data 5</td>
-      <td class="right">Data 6</td>
+      <td id="t31">left</td>
+      <td id="t32" class="center">center</td>
+      <td id="t33" class="right">right</td>
+      
     </tr>
   </table>
-
-  <h2>Table 2</h2>
+  <br>
   <table class="middle" id="table-2">
-    <tr>
-      <td colspan="6" id="t21">Combined Cells</td>
+    <tr style="height:30px">
+      <td id="t21" colspan="6"></td>
     </tr>
-    <tr>
-      <td>Row 2, Column 1</td>
-      <td>Row 2, Column 2</td>
-      <td>Row 2, Column 3</td>
-      <td>Row 2, Column 4</td>
-      <td>Row 2, Column 5</td>
-      <td>Row 2, Column 6</td>
+      <tr style="height:30px">
+        <td rowspan="4"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    <tr style="height:30px">      
+      <td></td>
+      <td colspan="3"></td>
+      <td></td>
     </tr>
-    <!-- Add more rows and columns as needed -->
+    <tr style="height:30px">      
+      <td></td>
+      <td colspan="3"></td>
+      <td></td>
+    </tr>
+    <tr style="height:30px">      
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+	  <td></td>
+    </tr>
+    <tr style="height:30px">
+      <td colspan="6"></td>
+    </tr>
   </table>
-
-  <h2>Table 3</h2>
+  <br>
   <table class="middle" id="table-3">
-    <tr class="blue">
-      <th>Header 1</th>
-      <th>Header 2</th>
+    <tr>
+      <td style="background-color: seagreen; height:30px"></td>
+    </tr>
+    <tr class="center">
+      <td id="t-image"><img src="https://plus.unsplash.com/premium_photo-1688464908902-35c67647df83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="100px"></td>
     </tr>
     <tr>
-      <td rowspan="4" id="t-image"><img src="image_url_here" alt="Sample Image" width="100"></td>
-      <td>Data 1</td>
-    </tr>
-    <tr>
-      <td>Data 2</td>
-    </tr>
-    <tr>
-      <td>Data 3</td>
-    </tr>
-    <tr class="green">
-      <td>Data 4</td>
+      <td style="background-color: blue; height:30px" ></td>
     </tr>
   </table>
     <script type="text/javascript" src="./script.js">
 </script>
-
+ 
 </body>
-
+ 
 </html>
+ 
+ 
+ 
+ 
